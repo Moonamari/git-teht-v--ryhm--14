@@ -18,12 +18,12 @@ public class Auto {
         this.malli = "";
         this.bensanMaara = 0.0;
     }
-
+    //jarruta-metodi tulostaa "Auto jarruttaa"
     public void jarruta()
     {
         System.out.println("Auto jarruttaa");
     }
-
+    //kiihdytä-metodi tulostaa "Auto kiihtyy" jos bensaa on enemmän kuin 0
     public void kiihdyta()
     {
         
@@ -44,7 +44,7 @@ public class Auto {
         System.out.println("Malli: " + malli);
         System.out.println("Bensan määrä: " + bensanMaara + " litraa");
     }
-
+    //tankkaa-metodi tulostaa bensan määrän, tankattavan määrän ja niiden summan.
     public void tankkaa(double tankkausMaara){
         if (tankkausMaara > 0) 
         {
@@ -53,10 +53,7 @@ public class Auto {
             bensanMaara += tankkausMaara;
             System.out.println("Tankissa bensaa tankkauksen jälkeen: " + bensanMaara);
         }
-        else 
-        {
-            System.out.println("Virhe: Tankattavan määrän tulee olla positiivinen!");
-        }
+       
     }
         
 }
