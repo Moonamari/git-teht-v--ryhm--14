@@ -14,7 +14,7 @@ public class App {
         // auto1.tankkaa(5.0);
 
         Auto auto2 = new Auto("Ford", "Fiesta", 15);
-        auto2.NaytaTiedot();
+        auto2.printData();
 
 
         
