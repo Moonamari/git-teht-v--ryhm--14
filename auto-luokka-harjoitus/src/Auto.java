@@ -38,14 +38,14 @@ public class Auto {
         }
     }
 
-    public void NaytaTiedot()
+    public void printData()
     {
         System.out.println("Merkki: " + merkki);
         System.out.println("Malli: " + malli);
         System.out.println("Bensan määrä: " + bensanMaara + " litraa");
     }
     //tankkaa-metodi tulostaa bensan määrän, tankattavan määrän ja niiden summan.
-    public void tankkaa(double tankkausMaara){
+    public void refuel(double tankkausMaara){
         if (tankkausMaara > 0) 
         {
             System.out.println("Tankissa bensaa: " + bensanMaara);
