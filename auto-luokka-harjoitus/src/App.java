@@ -1,9 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        //Auto auto = new Auto("Volvo", "V40", 10.0);
+        // Auto auto = new Auto("Volvo", "V40", 10.0);
         // Auto auto1 = new Auto("Fiat", "Punto", 10);
-       
-        
+
         // auto.kiihdyta();
         // auto.jarruta();
         // auto.NaytaTiedot();
@@ -16,8 +15,8 @@ public class App {
         Auto auto2 = new Auto("Ford", "Fiesta", 15);
         auto2.printData();
 
+        Auto auto3 = new Auto("Polestar","2",0);
+        auto3.printData();
 
-        
-        
     }
 }
