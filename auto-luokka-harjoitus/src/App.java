@@ -15,8 +15,8 @@ public class App {
         Auto auto2 = new Auto("Ford", "Fiesta", 15);
         auto2.printData();
 
-        Auto auto3 = new Auto("Polestar","2",0);
-        auto3.printData();
+       // Auto auto3 = new Auto("Polestar","2",0);
+       // auto3.printData();
 
     }
 }
